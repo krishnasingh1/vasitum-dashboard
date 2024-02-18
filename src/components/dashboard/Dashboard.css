@@ -1,0 +1,23 @@
+.dashboard{
+    width: 1198px;
+    height: 900px;
+    
+    display: flex;
+
+}
+
+.horizonteldiv{
+    width: 1px;
+    height: 900px;
+    
+   
+    background: #F1F1F1;
+}
+
+.background{
+    width: 1197px;
+    height: 900px;
+    
+    background: #FFFFFF;
+}
+
