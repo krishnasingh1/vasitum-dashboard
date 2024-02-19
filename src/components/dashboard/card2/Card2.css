@@ -1,0 +1,100 @@
+.card2{
+    width: 312px;
+    height: 190px;
+    top: 322px;
+    left: 293px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    
+    gap: 40px;
+    padding: 20px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentdiv{
+    width: 117px;
+    height: 150px;
+    gap: 32px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}      
+
+.top{
+    display: flex;
+    flex-direction: column;
+    width: 117px;
+    height: 78px;
+    gap: 32px;
+
+    
+}
+
+.title1{
+    width: 166px;
+    height: 28px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161E54;
+    text-align: start;
+    
+}
+
+.number1{
+    width: 147px;
+    height: 28px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 28px;
+    color: #161E54;
+    
+}
+
+.down{
+    width: 117px;
+    height: 40px;
+    gap: 4px;
+}
+
+.men{
+    width: 147px;
+    height: 18px;
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #686868;
+}
+
+.women{
+    width: 147px;
+    height: 18px;
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #686868;
+}
+
+.graphimg{
+    width: 115px;
+    height: 121px;
+    gap: 20px;
+}
+
+.graphcontain{
+   
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    gap: 40px;
+
+}

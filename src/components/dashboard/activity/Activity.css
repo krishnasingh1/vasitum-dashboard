@@ -1,0 +1,139 @@
+.activityside{
+    width: 427px;
+    height: 258px;
+    top: 164px;
+    left: 963px;
+    align-items: center;
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+.activitycontainer{
+    width: 427px;
+    height: 258px;
+    border-radius: 10px;
+    background: #161E54;
+    display:  flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 24px;
+    gap: 26px;
+}
+
+.recentlyactivity{
+    width: 427px;
+    height: 48px;
+    border-radius: 10px 10px 0px 0px;
+    /* padding: 10px 10px 10px 24px; */
+    /* padding: 10px; */
+    display: flex;
+    
+    
+    align-items: center;
+    gap: 10px;
+    background: #1B204A;
+}
+
+.activitytext{
+    width: 393px;
+    height: 28px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+.activitycontent{
+    width: 340px;
+    height: 92px;
+    top: 74px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+}
+
+.datetext{
+    width: 340px;
+    height: 12px;
+    opacity: 60%;
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 10px;
+    line-height: 11.72px;
+    color: #FFFFFF;
+}
+
+.maintxt{
+    width: 340px;
+    height: 28px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.peragraf{
+    width: 340px;
+    height: 40px;
+    opacity: 80%;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.allactivity{
+    width: 369px;
+    height: 38px;
+    left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.makeactivity{
+    width: 195px;
+    height: 21px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.seeallbtn{
+    width: 139px;
+    height: 38px;
+    border-radius: 4px;
+    /* padding: 10px 16px 10px 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FF5151;
+
+}
+
+.btn{
+    width: 107px;
+    height: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+
+

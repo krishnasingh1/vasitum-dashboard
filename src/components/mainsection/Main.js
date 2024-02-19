@@ -1,6 +1,5 @@
 import Sidemenu from "../sidemanu/Sidemenu";
-import Navbar from "../navbar/Navbar";
-import '../navbar/Navbar.css'
+
 import '../sidemanu/Sidemenu.css';
 import Dashboard from "../dashboard/Dashboard";
 import '../dashboard/Dashboard.css';

@@ -1,0 +1,57 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 204px;
+    height: 136px;
+    top: 166px;
+    left: 293px;
+    border: none;
+    border-radius: 10px;
+    
+    padding: 12px 12px 12px 20px;
+    gap: 16px;
+    background: #FFEFE7;
+}
+
+.title{
+    width: 172px;
+    height: 28px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161E54;
+}
+
+.number{
+    width: 172px;
+    height: 28px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 28px;
+    color: #161E54;
+    text-align: left;
+}
+
+.urgentneeded{
+    width: 172px;
+    height: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5151;
+}
+
+
+/* jobs Continer */
+.jobscontain{
+    display: flex;
+    padding: 12px 12px 12px 50px;
+    gap: 20px;
+    
+}
