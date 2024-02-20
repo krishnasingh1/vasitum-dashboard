@@ -1,7 +1,13 @@
+import Schedule from "../upcoming/Schedule";
+import '../upcoming/Schedule.css';
+
+
+
 function Activity() {
     return (
         <div className="activityside">
             <ActivityContainer/>
+            <Schedule/>
             
         </div>
     )

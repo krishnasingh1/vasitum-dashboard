@@ -1,9 +1,9 @@
-function Card1() {
+function Card1(jobs) {
     return(
-        <div className="card">
-            <div className="title">Available Position</div>
-            <div className="number">24</div>
-            <div className="urgentneeded">4 Urgently needed</div>
+        <div className="card" style={{background:jobs.bgcolor}}>
+            <div className="title">{jobs.title}</div>
+            <div className="number">{jobs.num}</div>
+            <div className="urgentneeded"  style={{color:jobs.color}}>{jobs.needed}</div>
         </div>
     )
 }

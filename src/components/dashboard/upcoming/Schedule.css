@@ -1,0 +1,134 @@
+.schedule{
+    margin-top: 20px;
+    width: 427px;
+    /* height: 424px; */
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    background: #FFFFFF;
+}
+
+.usehedule{
+    width: 386px;
+    height: 28px;
+    padding: 21px;
+    top: 21px;
+    left: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autext{
+    width: 200px;
+    height: 28px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161E54;
+}
+
+.udtdropdown{
+    width: 145px;
+    height: 27px;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+    display: flex;
+    padding: 0px 6px 0px 6px;
+    background: #FFFFFF;
+}
+
+.btncreatesechedule{
+    width: 427px;
+    height: 39px;
+    top: 385px;
+    border: 1px solid #E0E0E0;
+    border-radius: 0px 0px 10px 10px;
+    /* padding: 10px; */
+    padding-top: 10px;
+    gap: 10px;
+    background: #FFFFFF;
+}
+.newbtnsechedule{
+    width: 427px;
+    height: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FF5151;
+}
+
+.scards{
+    width: 427px;
+    height: 424px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+/* Sechedule Card */
+.scard{
+    
+    width: 387px;
+    height: 64px;
+    top: 96px;
+    left: 20px;
+    border: 0.5px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 10px 16px 0px 10px;
+    gap: 29px;
+    background: #FAFAFA;
+    display: flex;
+
+}
+
+.udata{
+    width: 258px;
+    height: 44px;
+    gap: 6px;
+}
+
+.udtxt{
+    width: 283px;
+    height: 24px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
+}
+
+.udtime{
+    width: 258px;
+    height: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #686868;
+}
+
+.ui{
+    width: 68px;
+    height: 24px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notificationimg{
+    width: 24px;
+    height: 24px;
+}
+
+.meing{
+    width: 24px;
+    height: 24px;
+}
+
