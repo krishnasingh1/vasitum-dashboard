@@ -9,7 +9,7 @@
 
 .horizonteldiv{
     width: 1px;
-    height: 100vh;
+    height: inherit;
     
    
     background: #F1F1F1;
@@ -23,11 +23,12 @@
 }
 
 .dash-content{
-    width: 100%;
+    /* width: 100%; */
     height: 900px;
     background: #FFFFFF;
     display: flex;
     gap: 30px;
+    
     
 }
 
@@ -35,5 +36,20 @@
 /* jobs Continer */
 .jobscontain{
     display: flex;
+    padding: 20px 20px 20px 0px;
+    gap: 20px;
     
+}
+
+/* Graph Container */
+.graphcontain{
+   
+    display: flex;
+    padding: 20px 20px 20px 0px;
+    gap: 40px;
+
+}
+
+.leftdiv{
+    padding-left: 50px;
 }
