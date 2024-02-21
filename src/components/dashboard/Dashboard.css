@@ -1,10 +1,31 @@
 .dashboard{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
-    
-    display: flex;
+    /* padding-left: 50px; */
+    /* display: flex; */
+    background: #FFFFFF;
     
 
+}
+
+.dashboardtitle{
+    height: 64px;
+    top: 102px;
+    left: 293px;
+    padding: 10px 10px 10px 0px;
+    gap: 10px;
+
+
+}
+
+.dtxt{
+    height: 42px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #161E54;
+    text-align: left;
 }
 
 .horizonteldiv{
@@ -16,15 +37,16 @@
 }
 
 .background{
-    width: 100%;
+    /* width: 100%; */
     height: inherit;
-    
+    padding-left: 50px;
+    padding-right: 50px;
     background: #FFFFFF;
 }
 
 .dash-content{
     /* width: 100%; */
-    height: 900px;
+    /* height: 900px; */
     background: #FFFFFF;
     display: flex;
     gap: 30px;
@@ -36,7 +58,7 @@
 /* jobs Continer */
 .jobscontain{
     display: flex;
-    padding: 20px 20px 20px 0px;
+    /* padding: 20px 20px 20px 0px; */
     gap: 20px;
     
 }
@@ -45,11 +67,17 @@
 .graphcontain{
    
     display: flex;
-    padding: 20px 20px 20px 0px;
+    /* padding: 20px 20px 20px 0px; */
     gap: 40px;
-
 }
+    
+
+
 
 .leftdiv{
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+    gap: 20px;
 }

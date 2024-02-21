@@ -1,7 +1,7 @@
 .schedule{
-    margin-top: 20px;
-    width: 427px;
-    /* height: 424px; */
+    /* margin-top: 20px; */
+    /* width: 427px; */
+    /* height: 600px; */
     border: 1px solid #E0E0E0;
     border-radius: 12px;
     background: #FFFFFF;
@@ -39,7 +39,7 @@
 }
 
 .btncreatesechedule{
-    width: 427px;
+    /* width: 427px; */
     height: 39px;
     top: 385px;
     border: 1px solid #E0E0E0;
@@ -50,7 +50,7 @@
     background: #FFFFFF;
 }
 .newbtnsechedule{
-    width: 427px;
+    /* width: 427px; */
     height: 20px;
     font-family: Poppins;
     font-weight: 500;
@@ -61,12 +61,15 @@
 }
 
 .scards{
-    width: 427px;
-    height: 424px;
+    /* width: 427px; */
+    height: 390px;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
     
 
 }

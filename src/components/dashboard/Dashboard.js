@@ -15,8 +15,14 @@ function Dashboard() {
 
     <div className="dashboard">
         <div className="horizonteldiv"></div>
+        <Navbar/>
         <div className="background">
-          <Navbar/>
+          
+          <div className="dashboardtitle">
+            <div className="dtxt">
+              Dashboard
+            </div>
+          </div>
           <Dashboard1/>
           
         </div>

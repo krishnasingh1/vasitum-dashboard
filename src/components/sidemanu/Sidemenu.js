@@ -9,6 +9,9 @@ function Sidemenu() {
                 <div className="brandlogo">
                     <img src="../images/vasitum-logo.png" alt="Vasitum logo"/>
                 </div>
+                <div className="brandlogo1">
+                    <img src="../images/brandlogo1.png" alt="Vasitum logo"/>
+                </div>
             </div>
             <div className="blankcontaine"></div>
             <FrameMainMenu/>

@@ -1,32 +1,36 @@
 .activityside{
-    width: 427px;
+    /* width: 40%; */
     height: 258px;
     top: 164px;
     left: 963px;
-    align-items: center;
+    /* align-items: center; */
     text-align: left;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     display: flex;
     flex-direction: column;
+    gap: 20px;
 
 }
 
 .activitycontainer{
-    width: 427px;
+    /* width: 427px; */
     height: 258px;
     border-radius: 10px;
     background: #161E54;
     display:  flex;
     flex-direction: column;
-    padding: 10px 10px 10px 24px;
+    padding: 10px 24px 10px 24px;
     gap: 26px;
 }
 
 .recentlyactivity{
-    width: 427px;
+    /* width: ; */
     height: 48px;
     border-radius: 10px 10px 0px 0px;
-    /* padding: 10px 10px 10px 24px; */
+    padding: 10px 10px 10px 24px;
+    margin-left: -24px;
+    margin-right: -24px;
+    margin-top: -10px;
     /* padding: 10px; */
     display: flex;
     
@@ -37,7 +41,7 @@
 }
 
 .activitytext{
-    width: 393px;
+    /* width: 393px; */
     height: 28px;
     font-family: Poppins;
     font-weight: 500;
@@ -49,7 +53,7 @@
 }
 
 .activitycontent{
-    width: 340px;
+    /* width: 340px; */
     height: 92px;
     top: 74px;
     left: 24px;
@@ -60,7 +64,7 @@
 }
 
 .datetext{
-    width: 340px;
+    /* width: 340px; */
     height: 12px;
     opacity: 60%;
     font-family: Roboto;
@@ -71,7 +75,7 @@
 }
 
 .maintxt{
-    width: 340px;
+    /* width: 340px; */
     height: 28px;
     font-family: Poppins;
     font-weight: 500;
@@ -81,7 +85,7 @@
 }
 
 .peragraf{
-    width: 340px;
+    /* width: 340px; */
     height: 40px;
     opacity: 80%;
     font-family: Roboto;
@@ -93,7 +97,7 @@
 }
 
 .allactivity{
-    width: 369px;
+    /* width: 369px; */
     height: 38px;
     left: 24px;
     display: flex;
