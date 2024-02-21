@@ -57,6 +57,7 @@
 
 /* jobs Continer */
 .jobscontain{
+    
     display: flex;
     /* padding: 20px 20px 20px 0px; */
     gap: 20px;
@@ -81,3 +82,73 @@
     /* width: 60%; */
     gap: 20px;
 }
+
+@media only screen and (max-width: 843px){
+
+    
+
+    .background{
+        width: 744px;
+        left: 90px;
+
+    
+    }
+
+    .dash-content{
+        width: 640px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .jobscontain{
+        width: 744px;
+    }
+
+    .graphcontain{
+        width: 744px;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    .background{
+       display: flex;
+       flex-wrap: wrap; 
+       padding-right: 20px;
+       padding-left: 20px;
+    }
+
+    .dash-content{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .dashboardtitle{
+        height: 62px;
+        top: 70px;
+        left: 20px;
+        padding: 10px 10px 10px 0px;
+        gap: 10px;
+
+    }
+
+    .dtxt{
+        font-size: 20px;
+
+    }
+
+    .jobscontain{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .graphcontain{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }

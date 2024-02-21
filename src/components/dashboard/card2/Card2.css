@@ -60,7 +60,7 @@
 }
 
 .down{
-    width: 117px;
+    width: 147px;
     height: 40px;
     gap: 4px;
 }
@@ -69,7 +69,7 @@
     width: 147px;
     height: 18px;
     font-family: Roboto;
-    font-weight: 500px;
+    font-weight: 400px;
     font-size: 12px;
     line-height: 18px;
     color: #686868;
@@ -79,7 +79,7 @@
     width: 147px;
     height: 18px;
     font-family: Roboto;
-    font-weight: 500px;
+    font-weight: 400px;
     font-size: 12px;
     line-height: 18px;
     color: #686868;
@@ -98,3 +98,37 @@
     gap: 40px;
 
 }
+
+@media only screen and (max-width: 843px){
+    .card2{
+        width: 265px;
+        height: 170px;
+        gap: 10px;
+    }
+
+    .title1{
+        height: 24px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .number1{
+        font-size: 42px;
+
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 390px){
+    
+    .card2{
+        width: 310px;
+    }
+
+
+
+}
+

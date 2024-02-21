@@ -83,7 +83,7 @@
 
 .announcementcard1{
     /* width: 600px; */
-    height: 68px;
+    /* height: 68px; */
     top: 60px;
     left: 20px;
     border: 0.5px solid #E0E0E0;
@@ -138,4 +138,42 @@
 .card1img{
     width: 24px;
     height: 24px;
+}
+
+@media only screen and (max-width: 843px){
+    .announcement{
+        width: 632px;
+    }
+
+    .announcementcard1{
+        padding: 10px 20px 10px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 390px){
+    
+    .announcement{
+        width: 350px;
+    }
+
+    .announcementcard1{
+        height: 50px;
+    }
+
+    .lefttxts{
+        width: 120px;
+    }
+
+    .m1text{
+        width: 180px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    
+
+
+
+
 }

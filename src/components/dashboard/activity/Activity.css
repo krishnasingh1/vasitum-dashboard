@@ -1,6 +1,6 @@
 .activityside{
     /* width: 40%; */
-    height: 258px;
+    height: 319px;
     top: 164px;
     left: 963px;
     /* align-items: center; */
@@ -139,6 +139,75 @@
     line-height: 21px;
     /* text-align: center; */
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 843px){
+    .activityside{
+        width: 744px;
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .activitycontainer{
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        height: 319px;
+        gap: 40px;
+
+
+    }
+    .activitycontent{
+        margin-top: -20px;
+        gap: 10px;
+    }
+
+    .allactivity{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: 90px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 390px){
+    .activityside{
+        width: 390px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .activitycontainer{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 400px;
+        gap: 40px;
+
+
+    }
+    .activitycontent{
+        /* margin-top: -20px; */
+        /* gap: 10px; */
+    }
+
+    .allactivity{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .recentlyactivity{
+        height: 40px;
+    }
+
+    
 }
 
 

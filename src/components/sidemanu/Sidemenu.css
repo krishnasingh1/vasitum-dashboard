@@ -1,8 +1,10 @@
 .sidenav{
     width: 242px;
     /* height: 100%; */
+    height: 100vh;
     padding: 20px 0px 272px 0px;
     gap: 39px;
+    background: #FAFAFA;
     
     
     
@@ -230,6 +232,14 @@
 
 
 
+  }
+
+  @media only screen and (max-width: 390px) {
+
+    .sidenav{
+        display: none;
+    }
+    
   }
 
 

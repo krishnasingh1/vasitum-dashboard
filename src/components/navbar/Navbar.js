@@ -2,10 +2,15 @@ function Navbar() {
     return (
         <div className="main">
             <div className="navbar">
-                <div className="search">
-                    <input type="searchinput" placeholder="Search" className="searchinput"/>
-                    <img src="../images/search-icon.png" alt="Search item" className="searchicon"/>   
-                    
+                <div className="mediaSearch">
+                    <div className="menubtn1">
+                        <img src="../images/ic_burgermenu.png"/>
+                    </div>
+                    <div className="search">
+                        <input type="searchinput" placeholder="Search" className="searchinput"/>
+                        <img src="../images/search-icon.png" alt="Search item" className="searchicon"/>   
+                        
+                    </div>
                 </div>
                 <div className="navright">
                     <img className="img" src="../images/ic_round-notifications.png"/> 
