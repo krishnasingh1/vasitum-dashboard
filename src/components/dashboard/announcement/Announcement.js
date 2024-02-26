@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import AnnouncementCard1 from "./AnnouncementCard1";
 
 
@@ -32,6 +33,33 @@ function Announcement() {
 
 
 function AnnouncementCards() {
+
+    const [detail, setdetail] = useState([{title: "", body: ""}]);
+    
+
+    let isLoading = true;
+    
+    let API = "https://jsonplaceholder.typicode.com/posts";
+
+    const fecthApiData = async (url) => {
+        try {
+
+            const res = await fetch(API);
+            const data = await res.json();
+            setdetail(data);
+            console.log(data);
+            isLoading = false;
+
+                
+        } catch (error) {
+            console.log(error); 
+        }
+    };
+
+        useEffect(() => {
+            fecthApiData(API);
+        }, []);
+    
     const details = [{
         detail: "Outing schedule for every departement",
         time:"5 Minutes ago" ,
@@ -66,18 +94,30 @@ function AnnouncementCards() {
     return(
         
 
+        // <div className="announcementcards">
+           
+        //     {details.map((i, index) => {
+        //         return (
+        //             <div key={index}>
+        //                 <AnnouncementCard1 title={i.detail} time={i.time}   />
+        //             </div>
+        //         )
+        //     })}
+            
+            
+        // </div>
         <div className="announcementcards">
            
-            {details.map((i, index) => {
-                return (
-                    <div key={index}>
-                        <AnnouncementCard1 title={i.detail} time={i.time}   />
-                    </div>
-                )
-            })}
-            
-            
-        </div>
+        {detail.map((i, index) => {
+            return (
+                <div key={index} >
+                    <AnnouncementCard1 title={i.title} time={i.body}/>
+                </div>
+            )
+        })}
+        
+        
+    </div>
     )
 }
 
