@@ -18,11 +18,7 @@ function Dashboard() {
         <Navbar/>
         <div className="background">
           
-          <div className="dashboardtitle">
-            <div className="dtxt">
-              Dashboard
-            </div>
-          </div>
+          
           <Dashboard1/>
           
         </div>
@@ -70,7 +66,14 @@ function Dashboard1() {
     ];
 
   return(
-    <div  className='dash-content'>
+    <div>
+      <div className="dashboardtitle">
+            <div className="dtxt">
+              Dashboard
+            </div>
+          </div>
+        <div  className='dash-content'>
+        
         <div className="leftdiv">
           <div className="jobscontain">
           {jobs.map((i, index) => {
@@ -106,6 +109,8 @@ function Dashboard1() {
         </div>
         <Activity/>
     </div>
+    </div>
+    
   )
 }
 

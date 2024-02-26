@@ -1,9 +1,12 @@
 .dashboard{
     /* width: 100%; */
-    height: 100%;
+    /* height: 100%; */
     /* padding-left: 50px; */
     /* display: flex; */
     background: #FFFFFF;
+    position: sticky;   
+    top: 0;
+    
     
 
 }
@@ -45,6 +48,7 @@
 }
 
 .dash-content{
+    overflow-y: scroll;
     /* width: 100%; */
     /* height: 900px; */
     background: #FFFFFF;

@@ -83,7 +83,7 @@
 
 .announcementcard1{
     /* width: 600px; */
-    /* height: 68px; */
+    height: 68px;
     top: 60px;
     left: 20px;
     border: 0.5px solid #E0E0E0;
@@ -97,13 +97,18 @@
 }
 
 .righttxts{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
     /* width: 405px; */
     height: 44px;
-    gap: 6px;
+    gap: 20px;
     
 }
 
 .m1text{
+    padding-bottom: 15px;
     width: 405px;
     height: 24px;
     font-family: Poppins;
@@ -115,6 +120,7 @@
 }
 
 .stext{
+    padding-bottom: 10px;
     width: 405px;
     height: 14px;
     font-family: Roboto;

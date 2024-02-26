@@ -5,6 +5,9 @@
     left: -1532px;
     /* background: #FAFAFA; */
     display: flex;
+    position: sticky;
+    top: 0;
+    
     
     
 }

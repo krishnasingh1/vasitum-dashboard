@@ -11,7 +11,7 @@ function Main() {
     return (
 
         <div className="container">
-            <Sidemenu/>
+            <Sidemenu ></Sidemenu>
             <Dashboard/>
             
         </div>
